@@ -1,0 +1,39 @@
+body {
+      background-color: #fbeef2; /* rosinha claro */
+      background-image: url('https://cdn.pixabay.com/photo/2016/10/25/23/15/stars-1769392_960_720.png');
+      background-repeat: repeat;
+    }
+    
+    .game {
+      width: 300px;
+      margin: 0 auto;
+      background-color: #f6f6f6; /* bege claro */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    td {
+      width: 33.33%;
+      height: 100px;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 36px;
+      font-weight: bold;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      background-color: #fff; /* branco */
+    }
+    
+    td[data-cell="X"] {
+      color: blue;
+    }
+    
+    td[data-cell="O"] {
+      color: red;
+    }
